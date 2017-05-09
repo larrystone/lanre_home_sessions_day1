@@ -1,5 +1,6 @@
 'use strict';
 
+//House object
 class House {
   constructor (color, owner, purpose, houseLocation, numberOfRooms) {
     this._owner = owner;
@@ -38,6 +39,7 @@ class House {
   }
 }
 
+//Skyscrapper extends House object
 class Skycrapper extends House {
     constructor (color, owner, purpose, houseLocation, numberOfRooms, noOfFloors) {
       super (color, owner, purpose, houseLocation, numberOfRooms)
